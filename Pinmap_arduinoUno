@@ -1,0 +1,7 @@
+D13 (SCK) → pad labeled SCL
+D11 (MOSI) → MOSI
+D12 (MISO) → MISO
+D10 (SS) → CS
+D2 → IRQ
+3.3 V → EN-V / 3V3 (3V3!)
+GND → GND
