@@ -1,0 +1,13 @@
+3V3 → VCC/EN-V
+GND → GND
+GPIO2 → SCLK (AS3935 SCK)
+GPIO3 → MOSI
+GPIO4 → MISO
+GPIO7 → CS
+GPIO1 → IRQ (use sensor’s IRQ pin; open-drain → keep pullup)
+
+Tries to connect to saved Wi-Fi. If it can’t in ~15s → starts SoftAP: AS3935-Setup (pass 12345678).
+  http://192.168.4.1/ → enter your SSID/PASS
+Once on your LAN, the OLED shows IP + port and as3935.local (mDNS).
+  Open http://as3935.local/
+Press BOOT → OLED switches to a “monitor” screen
